@@ -349,10 +349,10 @@ section .title {
 
 
 /* = = = services section = = = */
-.services,
-.teams {
+.services {
     color: #fff;
-    background: #111;
+    background: url('photos/roganlandscape.jpg');
+    background-size: cover;
 }
 
 .services .title::before,
@@ -622,7 +622,9 @@ section .title {
 /* = = = contact = = = */
 
 .contact {
-    background-color: #222;
+    background: url('photos/drummerlandscape.jpg');
+    background-size: cover;
+    
 }
 
 
