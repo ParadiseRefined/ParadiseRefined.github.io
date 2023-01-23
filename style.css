@@ -185,14 +185,15 @@ section .title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-size: cover;
-    background-attachment: scroll ;
-    min-height: 500px;
+   
+   
     background: url('photos/bandlogo1.jpg');
     height: 100vh;
     color: rgb(141, 141, 141, 0.5);
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: scroll ; 
     
-   
     font-family: 'Metal Mania', cursive;
    
 }
