@@ -65,6 +65,13 @@ section {
     justify-content: space-between;
 }
 
+.contact_us {
+color: black;
+}
+.contact_us:hover {
+    color: rgb(85, 0, 33);
+}
+
 section .title {
     position: relative;
     text-align: center;
@@ -185,7 +192,7 @@ section .title {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    /* this order is crucial for mobile to work */
    
     background: url('photos/bandlogo1.jpg');
     height: 100vh;
@@ -195,6 +202,7 @@ section .title {
     background-attachment: scroll ; 
     
     font-family: 'Metal Mania', cursive;
+    
    
 }
 
